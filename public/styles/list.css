@@ -1,0 +1,25 @@
+.list {
+  margin: 2em 0;
+  border-left: 2px solid #ece9e9;
+  padding: 0.5rem 1rem;
+}
+
+.list h2 {
+  font-size: 1.77em;
+  text-transform: uppercase;
+  margin: 1.33rem 0 3.33rem;
+}
+
+.list ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.list ul li {
+  margin: 2.5rem 0;
+}
+
+.list ul li .title {
+  font-size: 1.33em;
+}

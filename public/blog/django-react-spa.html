@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="In this post, I go over the process of setting up Django to serve
+              a single-page application written in React."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      How to Serve a React Single-Page App with Django | Blog | Zach Taylor's
+      portfolio
+    </title>
+    <link rel="icon" href="/favicon.png" />
+
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/logo.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+
+    <!-- React and ReactDOM -->
+    <script
+      src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+
+    <!-- Zero MD -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container-wide">
+      <header class="header">
+        <a href="/" class="logo-link">
+          <div id="logo"></div>
+        </a>
+      </header>
+      <div class="page-title">
+        <h1>How to Serve a React Single-Page App with Django</h1>
+        <h4>September 21, 2020</h4>
+        <hr />
+      </div>
+      <zero-md src="/markdown/blog/5-django-react-spa.md"></zero-md>
+    </div>
+    <footer id="footer" class="footer"></footer>
+
+    <script src="/scripts/logo.js" type="module"></script>
+    <script src="/scripts/footer.js" type="module"></script>
+  </body>
+</html>
