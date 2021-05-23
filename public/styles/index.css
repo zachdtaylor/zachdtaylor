@@ -659,7 +659,15 @@ a:hover {
 }
 
 .page-title {
-  margin: 3em 0rem;
+  margin: 3rem 0rem;
+}
+@media only screen and (max-width: 768px) {
+  .page-title {
+    margin: 3rem 1rem;
+  }
+  zero-md {
+    margin: 0 1rem;
+  }
 }
 
 .page-title h1 {
